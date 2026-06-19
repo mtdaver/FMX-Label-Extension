@@ -1,6 +1,8 @@
 This Google Extension allows you to print directly from FMX instead of downloading a document from FMX and then printing 
 your label(s). 
 
+Be sure to unzip the Fonts folder also, as the extension uses a custom font. 
+
 There are currently Six options:
 
 1. Student - This will print an individual student label.
