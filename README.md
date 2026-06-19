@@ -36,7 +36,7 @@ There are currently Six options:
       those labels.
    h. Need to reprint a label? Put a check mark in only that device, and it will only print that label, or lablels
 
-	 6. Bulk (Custom) - This option will allow you to bulk print from the Equipment page in FMX.
+6. Bulk (Custom) - This option will allow you to bulk print from the Equipment page in FMX.
       a. You will need to filter, and choose the same settings as above.
       b. Follow the prompts
       d. Select 1 to use the Full Label Name
