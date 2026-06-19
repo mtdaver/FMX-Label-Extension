@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "FMX Dymo Label Printer",
+  "version": "2.0",
+  "description": "Quickly print Dymo labels directly from FMX equipment pages.",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.gofmx.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icon.png",
+        "fonts/*"
+      ],
+      "matches": [
+        "https://*.gofmx.com/*"
+      ]
+    }
+  ]
+}
